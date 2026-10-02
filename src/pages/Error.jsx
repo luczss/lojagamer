@@ -6,7 +6,8 @@ const Error = () => {
       <h2 className="text-6xl font-bold text-[#95ff00]">404</h2>
       <p className="text-2xl font-bold mb-2 text-cyan-400">Ops! Pagina não encontrada</p>
       <p className="text-gray-400 mb-8 max-w-md">Parece que você se perdeu no mapa do jogo. A pagina que você procura não existe ou foi removida</p>
-      
+
+      <Link to="/"className="text-white">Voltar para o Home</Link>
     </main>
   )
 }
